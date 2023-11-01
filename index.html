@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Spreadsheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="spreadsheet">
+        <button id="exportBtn">Export SpreadSheet</button>
+        <p id="currentPosition">A1</p>
+        <table id="spreadsheetTable">
+            <tr>
+                <td class="index"></td>
+                <td class="index">A</td>
+                <td class="index">B</td>
+                <td class="index">C</td>
+                <td class="index">D</td>
+                <td class="index">E</td>
+                <td class="index">F</td>
+                <td class="index">G</td>
+                <td class="index">H</td>
+                <td class="index">I</td>
+            </tr>
+        </table>
+        <div class="controls">
+            <button onclick="addRow()">Add Row</button>
+            <button onclick="addColumn()">Add Column</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
