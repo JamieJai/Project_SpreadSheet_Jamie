@@ -59,5 +59,8 @@
 ## 🖥️ 구현화면
 
 ---
+<br>
+
+[웹 사이트 미리보기](https://fabulous-frangollo-44384f.netlify.app/)
 
 <img src="result.png">
